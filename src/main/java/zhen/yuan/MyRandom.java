@@ -31,7 +31,8 @@ public class MyRandom {
         int count = 0, temp;
         while (count < 10) {
             temp = random.nextInt(max);
-            if (set.contains(temp)) continue;
+            if (set.contains(temp)) {continue;}
+            set.add(temp);
             array[count] = temp;
             count++;
         }
