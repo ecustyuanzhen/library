@@ -1,0 +1,1 @@
+package zhen.yuan;import org.junit.Test;import static org.junit.Assert.*;/** * @Author:zhenyuan * @Date:Created in 22:59 2018/6/26 */public class MyPrintTest {    @Test    public void print() {    }    @Test    public void println() {        zhen.yuan.MyPrint.println("s");    }}
